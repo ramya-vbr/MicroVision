@@ -1,0 +1,18 @@
+  .input-field {
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #d1d5db; 
+    border-radius: 0.375rem;
+    font-size: 1rem;
+  }
+  
+  .input-field:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3);
+  }
+  
+  .input-error {
+    font-size: 0.8rem;
+    margin-top: 0.25rem;
+  }
+  
