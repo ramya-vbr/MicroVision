@@ -34,6 +34,7 @@ src/
    ```bash
    npm start
    ```
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## 🔑 Login Details
 
@@ -43,7 +44,7 @@ Default credentials:
 
 ## 📝 Available Scripts
 
-- `npm start` - Start development server, Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- `npm start` - Start development server
 
 - `npm test` - Run tests
 - `npm run build` - Build for production
