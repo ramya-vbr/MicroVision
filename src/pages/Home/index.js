@@ -27,6 +27,8 @@ const Home = () => {
       <h1 className="title">Welcome Home</h1>
       {loading && <p>Loading...</p>}
       {error && <p className="error">{error}</p>}
+        <div>
+        <h3 className="title">List Of Public API</h3>
       <div className="card-grid">
         {posts.map((post) => (
           <div key={post.id} className="card">
@@ -36,6 +38,7 @@ const Home = () => {
         ))}
       </div>
     </div>
+<div>
   );
 };
 
